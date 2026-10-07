@@ -1,0 +1,32 @@
+[
+  [
+    "validation-values-hidden",
+    "src/components/ListErrors.vue",
+    "v-text=\"err\"",
+    "v-text=\"key\""
+  ],
+  [
+    "pagination-active-boundary",
+    "src/components/VPagination.vue",
+    "active: this.currentPage === page",
+    "active: this.currentPage !== page"
+  ],
+  [
+    "pagination-event-value",
+    "src/components/VPagination.vue",
+    "this.$emit(\"update:currentPage\", goToPage);",
+    "this.$emit(\"update:currentPage\", goToPage + 1);"
+  ],
+  [
+    "signup-navigation",
+    "src/components/TheHeader.vue",
+    ":to=\"{ name: 'register' }\"",
+    ":to=\"{ name: 'login' }\""
+  ],
+  [
+    "footer-home-navigation",
+    "src/components/TheFooter.vue",
+    ":to=\"{ name: 'home', params: {} }\"",
+    ":to=\"{ name: 'login', params: {} }\""
+  ]
+]

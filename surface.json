@@ -1,0 +1,26 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "status": 200,
+    "content_type": "text/html",
+    "sha256": "1f7e230c5e3295325232261c2fe0f46a23655b361e03ff36cdafb99317d9158a",
+    "body": "<!DOCTYPE html>\n<html lang=\"en\">\n\n<head>\n  <meta charset=\"utf-8\">\n  <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\">\n  <meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0\">\n  <!--[if IE]><link rel=\"icon\" href=\"/favicon.ico\"><![endif]-->\n  <title>Conduit</title>\n  <!-- Import Ionicon icons & Google Fonts our Bootstrap theme relies on -->\n  <link href=\"//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css\" rel=\"stylesheet\" type=\"text/css\">\n  <link href=\"//fonts.googleapis.com/css?family=Titillium+Web:700|Source+Serif+Pro:400,700|Merriweather+Sans:400,700|Source+Sans+Pro:400,300,600,700,300italic,400italic,600italic,700italic\"\n    rel=\"stylesheet\" type=\"text/css\">\n  <!-- Import the custom Bootstrap 4 theme from our hosted CDN -->\n  <link rel=\"stylesheet\" href=\"https://demo.productionready.io/main.css\">\n<link href=\"/0.js\" rel=\"prefetch\"><link href=\"/1.js\" rel=\"prefetch\"><link href=\"/10.js\" rel=\"prefetch\"><link href=\"/11.js\" rel=\"prefetch\"><link href=\"/12.js\" rel=\"prefetch\"><link href=\"/13.js\" rel=\"prefetch\"><link href=\"/14.js\" rel=\"prefetch\"><link href=\"/2.js\" rel=\"prefetch\"><link href=\"/3.js\" rel=\"prefetch\"><link href=\"/4.js\" rel=\"prefetch\"><link href=\"/5.js\" rel=\"prefetch\"><link href=\"/6.js\" rel=\"prefetch\"><link href=\"/7.js\" rel=\"prefetch\"><link href=\"/8.js\" rel=\"prefetch\"><link href=\"/9.js\" rel=\"prefetch\"><link href=\"/app.js\" rel=\"preload\" as=\"script\"><link rel=\"icon\" type=\"image/png\" sizes=\"32x32\" href=\"/img/icons/favicon-32x32.png\"><link rel=\"icon\" type=\"image/png\" sizes=\"16x16\" href=\"/img/icons/favicon-16x16.png\"><link rel=\"manifest\" href=\"/manifest.json\"><meta name=\"theme-color\" content=\"#4DBA87\"><meta name=\"apple-mobile-web-app-capable\" content=\"no\"><meta name=\"apple-mobile-web-app-status-bar-style\" content=\"default\"><meta name=\"apple-mobile-web-app-title\" content=\"realworld-vue\"><link rel=\"apple-touch-icon\" href=\"/img/icons/apple-touch-icon-152x152.png\"><link rel=\"mask-icon\" href=\"/img/icons/safari-pinned-tab.svg\" color=\"#4DBA87\"><meta name=\"msapplication-TileImage\" content=\"/img/icons/msapplication-icon-144x144.png\"><meta name=\"msapplication-TileColor\" content=\"#000000\"></head>\n\n<body>\n  <noscript>\n    <strong>We're sorry but vue-realworld-example-app doesn't work properly without JavaScript enabled. Please enable\n      it to continue.</strong>\n  </noscript>\n  <div id=\"app\"></div>\n  <!-- built files will be auto injected -->\n  <script src=\"https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Symbol \"></script>\n<script type=\"text/javascript\" src=\"/app.js\"></script></body>\n\n</html>\n"
+  },
+  {
+    "method": "GET",
+    "path": "/login",
+    "status": 404,
+    "content_type": "text/html",
+    "sha256": "a3faf2622186912897e96fcf3cb1dcbe2f937b6246006ca85a34155efbf97e3f",
+    "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /login</pre>\n</body>\n</html>\n"
+  },
+  {
+    "method": "GET",
+    "path": "/register",
+    "status": 404,
+    "content_type": "text/html",
+    "sha256": "4875bd73b31c4df614e4a960e0c0e0616b7db3dabb8e98247c599873ec195d58",
+    "body": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n<meta charset=\"utf-8\">\n<title>Error</title>\n</head>\n<body>\n<pre>Cannot GET /register</pre>\n</body>\n</html>\n"
+  }
+]

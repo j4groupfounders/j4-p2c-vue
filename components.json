@@ -1,0 +1,25 @@
+{
+  "errors": "<ul class=\"error-messages\"><li><span>title</span> <span>required</span></li><li><span>body</span> <span>too short</span></li></ul>",
+  "pagination": "<nav><ul class=\"pagination\"><li data-test=\"page-link-1\" class=\"page-item\"><a href=\"\" class=\"page-link\">1</a></li><li data-test=\"page-link-2\" class=\"page-item active\"><a href=\"\" class=\"page-link\">2</a></li><li data-test=\"page-link-3\" class=\"page-item\"><a href=\"\" class=\"page-link\">3</a></li></ul></nav>",
+  "events": {
+    "hook:beforeCreate": [
+      []
+    ],
+    "hook:created": [
+      []
+    ],
+    "hook:beforeMount": [
+      []
+    ],
+    "hook:mounted": [
+      []
+    ],
+    "update:currentPage": [
+      [
+        3
+      ]
+    ]
+  },
+  "footer": "<footer><div class=\"container\"><a href=\"#/\" class=\"logo-font router-link-exact-active router-link-active\">\n      conduit\n    </a> <span class=\"attribution\">\n      An interactive learning project from\n      <a rel=\"noopener noreferrer\" target=\"blank\" href=\"https://thinkster.io\">Thinkster</a>. Code &amp; design licensed under MIT.\n    </span></div></footer>",
+  "header": "<nav class=\"navbar navbar-light\"><div class=\"container\"><a href=\"#/\" class=\"navbar-brand router-link-exact-active router-link-active\">\n      conduit\n    </a> <ul class=\"nav navbar-nav pull-xs-right\"><li class=\"nav-item\"><a href=\"#/\" class=\"nav-link router-link-exact-active active\">\n          Home\n        </a></li> <li class=\"nav-item\"><a href=\"#/login\" class=\"nav-link\"><i class=\"ion-compose\"></i>Sign in\n        </a></li> <li class=\"nav-item\"><a href=\"#/register\" class=\"nav-link\"><i class=\"ion-compose\"></i>Sign up\n        </a></li></ul></div></nav>"
+}
