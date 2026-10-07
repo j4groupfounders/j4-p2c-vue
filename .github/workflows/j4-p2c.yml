@@ -16,6 +16,8 @@ jobs:
       - run: yarn install --frozen-lockfile --ignore-scripts
       - name: Project tests
         run: yarn test --runInBand --json --outputFile=project-tests.json
+      - name: Component characterization
+        run: BABEL_ENV=test yarn jest --runInBand --testMatch '**/j4.characterize.spec.js'
       - name: Boot and characterize
         run: |
           yarn serve --port 3000 > boot.log 2>&1 &
@@ -26,6 +28,7 @@ jobs:
           name: evidence
           path: |
             surface.actual.json
+            components.actual.json
             project-tests.*
             target/surefire-reports/*.xml
             boot.log
