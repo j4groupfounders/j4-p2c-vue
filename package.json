@@ -5,12 +5,12 @@
     "date-fns": "^1.30.1",
     "marked": "^0.7.0",
     "register-service-worker": "^1.6.2",
-    "vue": "^2.6.10",
+    "vue": "2.7.16",
     "vue-axios": "^2.1.4",
     "vue-router": "^3.1.3",
     "vuex": "^3.1.1"
   },
-  "description": "TodoMVC for the RealWorld™",
+  "description": "TodoMVC for the RealWorld\u2122",
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
@@ -28,7 +28,7 @@
     "node-sass": "^4.12.0",
     "nyc": "^14.1.1",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10"
+    "vue-template-compiler": "2.7.16"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
