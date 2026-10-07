@@ -19,5 +19,8 @@ test("J4 fixed component HTML and pagination behavior",()=>{
  footer:mount(Footer,opts).html(),header:mount(Header,opts).html()
  };
  fs.writeFileSync("components.actual.json",JSON.stringify(out,null,2));
+ // expected-framework: Vue 2.7 adds the dev-only renderTracked hook.
+ // Keep the raw evidence above; compare all business events and DOM unchanged.
+ delete out.events["hook:renderTracked"];
  if(fs.existsSync("components.json"))expect(out).toEqual(JSON.parse(fs.readFileSync("components.json","utf8")));
 });

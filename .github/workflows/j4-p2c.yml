@@ -13,15 +13,15 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '16'
-      - run: yarn install --ignore-scripts
+      - run: yarn install --frozen-lockfile --ignore-scripts
       - name: Project tests
         run: yarn test --runInBand --json --outputFile=project-tests.json
       - name: Component characterization
         run: BABEL_ENV=test yarn jest --runInBand --testMatch '**/j4.characterize.spec.js'
       - name: Boot and characterize
-        run: |
-          yarn serve --port 3000 > boot.log 2>&1 &
-          python3 j4_probe.py
+        run: python3 j4_stage.py
+      - name: Independent seeded faults
+        run: python3 j4_seeds.py
       - uses: actions/upload-artifact@v4
         if: always()
         with:
@@ -33,5 +33,7 @@ jobs:
             target/surefire-reports/*.xml
             boot.log
             seed-results.json
+            seed-evidence/
+            http-evidence/
             yarn.lock
           retention-days: 30
